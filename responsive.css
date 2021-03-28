@@ -1,0 +1,63 @@
+/*tolong setiap kali nambah style cantumkan komentar yah :) */
+
+
+
+/* Untuk Tablet */
+/* @Baror Abadi i07*/
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+
+
+   /*AGUS*/
+ .kolom-pencari input{
+   width:50%;
+ }
+
+
+.container-bar{
+	width:50%;
+}
+
+
+/* @Hayrul gatti R I07 */
+
+.footer{
+	width:50%;
+}
+
+}
+/* Untuk Smartphone */
+/* @Baror Abadi i07*/
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  /*AGUS*/
+  .kolom-pencari input{
+   width:30%;
+ }
+ .kolom-pencari button{
+    text-align:center;
+    margin-top:1px;
+ }
+ 
+
+/* @Hayrul gatti R I07 */
+
+.footer{
+	width:100%;
+}
+/*natasya*/
+}@media (max-width: 1000px) {
+  .kategori {
+    flex-wrap: wrap;
+  }
+
+  .kategori-barang {
+    width: 50%;
+  }
+}

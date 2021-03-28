@@ -1,0 +1,169 @@
+/*tolong setiap kali nambah style cantumkan komentar yah :) */
+
+
+
+
+/* @Baror Abadi i07*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.header-right a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 56px;
+  margin-top: 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 15px;
+  color: rgba(236, 240, 241, 1.0);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*@agus efendi_07i*/
+.kolom-pencari{
+  text-align:center;
+  padding-top:22px;
+  
+}
+.kolom-pencari input{  
+  height:25px;
+  max-width:600px;
+  width:100%;
+  border-color:#5DC5F9 ;
+  border-radius:8px;
+}
+.kolom-pencari button{
+  width:30px;
+  height:23;
+  background-color:#5DC5F9  ;
+  border-radius:8px;
+ 
+  
+}
+.kolom-pencari button:hover {
+  background-color:#fff;
+  color:#006CFF ;
+}
+
+
+/* untuk animasi (slide bar ) @rnromdhon i07 */
+/* tag body, @namelssi */
+
+.body {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.body h2 {
+  font-size: 70px;
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 5px;
+  animation: animate 4s infinite alternate-reverse;
+}
+
+.body h3 {
+  font-size: 40px;
+  font-weight: normal;
+  color: brown;
+  animation: animate 4s infinite alternate;
+}
+
+@keyframes animate {
+  0%   { opacity: 0; filter: blur(28px)}
+  10%  { opacity: 0; }
+  90%  { opacity: 1; }
+}
+
+.kategori-barang {
+  float: left;
+  width: 25%;
+  padding-left: 50px;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.btn {
+  display: inline-block;
+  opacity: 0.8;
+  text-align:center;
+  background-color: brown;
+  margin: 20px 0;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius:4px;
+  box-shadow: 0 7px #1a7940
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.kategori-barang img {
+  border-bottom: solid 0 brown;
+  padding-bottom: 5px;
+}
+
+/* @Hayrul gatti R I07 */
+.footer{
+	padding-top: 10px;
+	text-align: center;
+	padding:10px auto;
+	list-style:none;
+	margin:10px auto;
+	border-color:#000;
+}
